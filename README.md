@@ -1,0 +1,124 @@
+<div align="center">
+  <img src="https://i.ibb.co/BcjC6R8/jiotv.png" width="120">
+  <h1 align="center">TS-JioTV</h1>
+  <p align="center">PHP Script for JioTV Streaming with Catchup & Multi-Device Support</p>
+  
+  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/mitthu786/TS-JioTV/blob/main/LICENSE)
+  [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)](https://php.net/)
+  [![Telegram Channel](https://img.shields.io/badge/Join-Telegram%20Channel-blue.svg)](https://tsneh.vercel.app/ts-tg)
+</div>
+
+---
+
+## 🚀 Cutting-Edge Features
+
+### 🎥 **Core Script Features:**
+
+- 🌟 **Sleek & Modern UI**
+- 📅 **7-Day Catchup TV Support**
+- 🔐 **Secure OTP Login**
+- 🕸️ **Built-in Proxy Support**
+- 🎥 **Enhanced Channel Filters**
+- 🎬 **Multi-Audio Streaming Support**
+- 🌐 **Adaptive Streaming with Quality Selection**
+- 💻 **Cross-Platform Compatibility (Mobile, Android TV, PC Browsers)**
+
+### 💖 **Next-Gen Player Features:**
+
+- 🔍 **Powerful Search Engine**
+  - **Channel-Based Search** (e.g., Sony, Zee, Star...)
+  - **Genre-Based Search** (e.g., Entertainment, Kids, Movies, Music...)
+  - **Language-Based Search** (e.g., Hindi, Tamil, Kannada, Odia...)
+
+---
+
+## 📸 Interface Previews
+
+<div align="center">
+  <h3>📱 Mobile Experience</h3>
+  <img src="https://i.ibb.co/k2qY5Ny6/m-1.png" width="150" alt="Mobile Home">
+  <img src="https://i.ibb.co/d4r760Rn/m-2.png" width="150" alt="Catchup">
+  <img src="https://i.ibb.co/HfHnR4mG/m-3.png" alt="Mobile Catchup View" width="150">
+</div>
+
+<div align="center">
+  <h3>🖥️ Desktop & TV Interface</h3>
+  <img src="https://i.ibb.co/7JK6kWzx/d-1.png" alt="PC Home" width="300">
+  <img src="https://i.ibb.co/B5z65DZk/d-2.png" alt="PC 7-Day Catchup" width="300">
+  <img src="https://i.ibb.co/vC0SgCq1/d-3.png" alt="PC Catchup Playback" width="300">
+</div>
+
+---
+
+## 📌 Installation Guide
+
+### 🅰️ **Step 1: Install PHP Web Server**
+
+#### 🔥 Android Users:
+
+- **KSWEB PRO v3.987** (Supports up to Android 14)
+- 📥 [Download APK](https://tsneh.vercel.app/ksweb_3.987.apk)
+
+#### 🖥️ Windows & Linux Users:
+
+- **XAMPP (Apache + PHP)**
+- 📥 [Download XAMPP](https://www.apachefriends.org/download.html)
+
+### 🅱️ **Step 2: Get TS-JioTV Files**
+
+- 📥 [Download TS-JioTV ZIP](https://tsnehcors.mitthu.workers.dev/?https://github.com/mitthu786/TS-JioTV/blob/main/TS-JioTV.zip?raw=true)
+- Extract files into **LocalHost `Htdocs` Root Folder**
+
+### 🅾️ **Step 3: Start Your Server**
+
+1. **Launch KSWEB App & Start Apache Server**
+2. **Verify Apache Server is Running**
+   <p align="center">
+     <img src="https://i.ibb.co/GpGSP01/apache-htdoc.jpg" alt="Apache Setup" width="450">
+   </p>
+3. **Access TS-JioTV in Your Browser:**
+   ```sh
+   http://localhost:8000/TS-JioTV/
+   ```
+4. **Login with your credentials** 🔑
+5. **Enjoy Uninterrupted JioTV Streaming!** 🎉
+
+---
+
+## ▶️ Playlist Streaming Support
+
+- Use this URL for **Tivimate or OTT Navigator Players:**
+  ```sh
+  http://localhost:8000/TS-JioTV/app/tsjio_playlist.m3u
+  ```
+
+---
+
+## 🌍 Proxy Support (For Users Outside India)
+
+- **Enable Proxy:** Edit these files and set `$PROXY = true;`
+  - `app/functions.php`
+  - `app/catchup/cpfunctions.php`
+  ```php
+  // Activate Proxy
+  $PROXY = true;
+  ```
+
+---
+
+## ⭐ Star History & Popularity
+
+[![Star History Chart](https://i.ibb.co/nsrdh5mR/star-history.png)](https://star-history.com/#mitthu786/TS-JioTV&Date)
+
+---
+
+## 📞 Contact & Support
+
+- 📢 **Join Our Telegram Community:** [Click Here](https://tsneh.vercel.app/ts-tg)
+- ✉️ **Support & Queries:** [Email Us](mailto:techiesneh@protonmail.com)
+
+---
+
+<div align="center">
+  <strong>© 2021-25 👨🏻‍💻 Techie Sneh</strong>
+</div>
